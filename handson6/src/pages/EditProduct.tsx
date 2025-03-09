@@ -53,7 +53,7 @@ const EditProduct = () => {
           </div>
         </div>
       )}
-      <h2 className="text-2xl font-bold mb-6 mt-10">Edit Product</h2>
+     
       <ProductForm
         isEdit={true}
         mutateFn={editProductMutation.mutate}
